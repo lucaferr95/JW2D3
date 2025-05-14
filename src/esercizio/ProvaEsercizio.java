@@ -24,13 +24,13 @@ public class ProvaEsercizio {
         Prodotto p9 = new Prodotto(97535614L , "Jeans", "Boys", 12);
 
 
-        Cliente cliente1 = new Cliente(2347474L , "Mario",2 );
-        Cliente cliente2 = new Cliente(4567474L , "Francesco",2 );
-        Cliente cliente3 = new Cliente(8348474L , "Riccardo",1 );
+        Cliente cliente1 = new Cliente(2347474L , "Topo Gigio",2 );
+        Cliente cliente2 = new Cliente(4567474L , "Paperino",2 );
+        Cliente cliente3 = new Cliente(8348474L , "Mario",1 );
         Cliente cliente4 = new Cliente(1245474L , "Luca",3);
-        Cliente cliente5 = new Cliente(6347474L , "Gennaro",2);
-        Cliente cliente6 = new Cliente(4347474L , "Orazio",3);
-        Cliente cliente7 = new Cliente(1789744L , "Osvaldo",3);
+        Cliente cliente5 = new Cliente(6347474L , "Luigi",2);
+        Cliente cliente6 = new Cliente(4347474L , "Pierattilio",3);
+        Cliente cliente7 = new Cliente(1789744L , "Pippo",3);
 
         ArrayList<Cliente> clienti= new ArrayList<>(Arrays.asList(cliente1,cliente2,cliente3,cliente4,cliente5,cliente6,cliente7));
 
