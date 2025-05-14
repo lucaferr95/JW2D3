@@ -54,7 +54,10 @@ public class ProvaEsercizio {
 
         ArrayList<Ordine>ordiniProdBaby=new ArrayList<>(Arrays.asList(o2baby1,o2baby,o2baby2,o1,o3));
         System.out.println("_____________________");
-        ordiniProdBaby.stream().flatMap(ordine -> ordine.getProdotto().stream()).filter(prodotto -> prodotto.getCategoria().contains("Baby")).forEach(System.out::println);
+        ordiniProdBaby.stream()
+                .filter(ordine -> ordine.getProdotto().stream()
+                        .anyMatch(prodotto -> prodotto.getCategoria().contains("Baby")))
+                .forEach(System.out::println);
 
         //esercizio 3
         System.out.println("_____________________");
